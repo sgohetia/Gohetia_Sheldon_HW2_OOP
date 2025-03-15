@@ -2,11 +2,29 @@
 
 ## HW #2: OOP JS, MODULES AND BUNDLING
 
-Using the principles of OOP covered in class you will work in pairs to create a custom class and then instantiate objects using that class and the new operator. The object that is created by the constructor function must contain at least 2 properties and 2 methods and be able to take in parameters/arguments. The extends keyword must be used in another class declaration to create a class that is a child of another class.
+Using the principles of OOP covered in class I will create a custom class and then instantiate objects using that class and the new operator. The object that is created by the constructor function must contain at least 2 properties and 2 methods and be able to take in parameters/arguments. The extends keyword must be used in another class declaration to create a class that is a child of another class.
 
 The object(s) must be used on a web page in a practical manner. Examples include a recipe book, team roster, music player, or photo gallery.
 
 Games are not allowed!
+
+I created a Music Player instead. I put an extra navigation items to navigate but some of the items are still in work progress because I intend to make this music player a fully functional but for the meantime this project focus on how to apply the OOP principle.
+
+In my case, I have these:
+
+- A class for Song which has a contstructor such as title, artist, src, duration, cover.
+- A class for Music Player which has a contstructor such as audioElement,
+  play,
+  next,
+  prev,
+  listen Now button,
+  song button,
+  title,
+  artist,
+  cover,
+  progressBar,
+  current Time,
+  and the duration.
 
 ## Tech Usage for this Project
 
