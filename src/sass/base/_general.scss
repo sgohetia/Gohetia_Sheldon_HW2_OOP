@@ -1,0 +1,31 @@
+@use "../abstracts/variables" as a;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: a.$main-font;
+}
+
+a {
+  text-decoration: none;
+  color: a.$text-color;
+}
+
+i {
+  color: a.$text-color;
+  cursor: pointer;
+}
+
+img {
+  object-fit: cover;
+  object-position: top;
+  border-radius: 8px;
+}
+
+html,
+body {
+  //   background: linear-gradient(#050505, #18181d);
+  background: a.$body-color;
+  height: 100vh;
+}
