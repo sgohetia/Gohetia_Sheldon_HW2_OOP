@@ -42,11 +42,11 @@ player.addSongs([
     "/src/images/song-1.png"
   ),
   new Song(
-    "Best Of Me",
-    "NEFFEX",
-    "/src/audio/neffex-2.mp3",
-    "03:47",
-    "/src/images/song-2.png"
+    "Marilag",
+    "Dionela ",
+    "/src/audio/song-5.mp3",
+    "04:26",
+    "/src/images/song-5.png"
   ),
   new Song(
     "Take A Look Around",
@@ -62,6 +62,11 @@ player.addSongs([
     "04:26",
     "/src/images/song-4.png"
   ),
+  new Song(
+    "Best Of Me",
+    "NEFFEX",
+    "/src/audio/neffex-2.mp3",
+    "03:47",
+    "/src/images/song-2.png"
+  ),
 ]);
-
-//audio/song4.mp3
