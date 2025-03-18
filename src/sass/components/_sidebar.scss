@@ -9,7 +9,7 @@
 
 .container .sidebar {
   height: 100vh;
-  background-color: a.$bg-color;
+  background-color: #190110;
   padding: 20px 36px;
   display: flex;
   flex-direction: column;
@@ -33,6 +33,7 @@
 }
 
 .container .sidebar .logo a {
+  font-family: a.$cyberpunk;
   padding-left: 15px;
   font-weight: bold;
   transition: all 0.3s ease;
@@ -42,7 +43,7 @@
 .container .sidebar .menu ul li:hover a,
 .container .sidebar .menu ul li:hover i,
 .container main header .nav-links a:hover {
-  color: a.$primary-color;
+  color: #fcee0a;
   transform: scale(1.1);
 }
 
@@ -65,6 +66,7 @@
 }
 
 .container .sidebar .menu ul li a {
+  font-family: a.$cyberpunk;
   font-size: 14px;
   font-weight: bold;
   transition: all 0.3s ease;
@@ -99,5 +101,5 @@
 
 .container .sidebar .playing .bottom i,
 .container .sidebar .playing .bottom p {
-  color: a.$primary-color;
+  color: cyan;
 }
