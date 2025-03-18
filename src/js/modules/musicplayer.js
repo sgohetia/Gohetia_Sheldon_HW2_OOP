@@ -63,12 +63,14 @@ export class MusicPlayer {
     this.audio.play();
     this.isPlaying = true;
     this.playButton.classList.replace("bxs-right-arrow", "bx-pause");
+    document.querySelector(".soundwave").classList.add("active");
   }
 
   pauseSong() {
     this.audio.pause();
     this.isPlaying = false;
     this.playButton.classList.replace("bx-pause", "bxs-right-arrow");
+    document.querySelector(".soundwave").classList.remove("active");
   }
 
   togglePlay() {
