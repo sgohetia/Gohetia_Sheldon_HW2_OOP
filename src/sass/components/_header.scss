@@ -1,7 +1,8 @@
 @use "../abstracts/variables" as a;
 
 .bigtext {
-  color: a.$primary-color;
+  color: #fcee0a;
+  font-family: a.$cyberpunk;
 }
 .container main {
   padding: 20px 36px;
@@ -24,7 +25,7 @@
   transition: all 0.3s ease;
 }
 .container main header .nav-links a.active {
-  color: a.$primary-color;
+  color: #fcee0a;
 }
 
 .container main header .search {
@@ -33,7 +34,7 @@
   gap: 6px;
   width: 70%;
   background-color: #1d1d1d;
-  border: 1px solid #464748;
+  border: 1px solid #dd3bf8;
   padding: 10px;
   border-radius: 8px;
 }

@@ -99,7 +99,7 @@
 }
 
 .container main .playlist .music-list .items::-webkit-scrollbar-thumb {
-  background-color: a.$primary-color;
+  background-color: cyan;
   border-radius: 3px;
 }
 
@@ -154,11 +154,11 @@
 
 .container main .playlist .music-list .items .item .actions .icon i {
   font-size: 10px;
-  color: a.$primary-color;
+  color: cyan;
 }
 
 .container main .playlist .music-list .items .item .actions i {
-  color: a.$primary-color;
+  color: cyan;
 }
 
 .container .right-section {
