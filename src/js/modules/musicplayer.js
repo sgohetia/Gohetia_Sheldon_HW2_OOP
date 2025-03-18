@@ -134,5 +134,6 @@ export class MusicPlayer {
     this.songButtons.forEach((button, index) => {
       button.addEventListener("click", () => this.playSongByIndex(index));
     });
+    this.audio.addEventListener("ended", () => this.nextSong());
   }
 }

@@ -41,6 +41,7 @@
   justify-content: center;
   border-radius: 6px;
   cursor: pointer;
+  transition: all 0.3s ease;
 }
 
 .container main .playlist .genres .items .item p {
@@ -72,12 +73,38 @@
   background-color: #080501;
 }
 
+.container main .playlist .genres .items .item:hover {
+  transform: scale(1.1);
+}
+
 .container main .playlist .music-list {
   background-color: #202026;
   padding: 20px;
   color: #fff;
   border-radius: 6px;
   width: 65%;
+  max-height: 500px;
+  overflow: hidden;
+}
+
+.container main .playlist .music-list .items {
+  max-height: 260px;
+  padding-right: 20px;
+  margin-right: 5px;
+  overflow-y: auto;
+}
+
+.container main .playlist .music-list .items::-webkit-scrollbar {
+  width: 5px;
+}
+
+.container main .playlist .music-list .items::-webkit-scrollbar-thumb {
+  background-color: a.$primary-color;
+  border-radius: 3px;
+}
+
+.container main .playlist .music-list .items::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.2);
 }
 
 .container main .playlist .music-list .items .item {

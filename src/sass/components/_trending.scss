@@ -55,6 +55,11 @@
   border: 2px solid #fff;
   padding: 10px;
   border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.container main .trending .left .info .buttons i:hover {
+  transform: scale(1.1);
 }
 
 .container main .trending img {

@@ -69,4 +69,18 @@ player.addSongs([
     "03:47",
     "/src/images/song-2.png"
   ),
+  new Song(
+    "Tears Don't Fall",
+    "Bullet For My Valentine",
+    "/src/audio/song-6.mp3",
+    "03:47",
+    "/src/images/song-6.png"
+  ),
+  new Song(
+    "Dear Maria, Count Me In",
+    "All Time Low",
+    "/src/audio/song-7.mp3",
+    "03:47",
+    "/src/images/song-7.png"
+  ),
 ]);
