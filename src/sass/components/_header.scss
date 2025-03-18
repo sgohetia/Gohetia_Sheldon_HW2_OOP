@@ -1,5 +1,8 @@
 @use "../abstracts/variables" as a;
 
+.bigtext {
+  color: a.$primary-color;
+}
 .container main {
   padding: 20px 36px;
 }
@@ -19,6 +22,9 @@
   text-transform: uppercase;
   color: a.$h5-text;
   transition: all 0.3s ease;
+}
+.container main header .nav-links a.active {
+  color: a.$primary-color;
 }
 
 .container main header .search {
