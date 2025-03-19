@@ -8,7 +8,7 @@ The object(s) must be used on a web page in a practical manner. Examples include
 
 Games are not allowed!
 
-I created a Music Player instead. I put an extra navigation items to navigate but some of the items are still in work progress because I intend to make this music player a fully functional but for the meantime this project focus on how to apply the OOP principle.
+I created a CyberPunk Music Player theme instead. I put an extra navigation items to navigate but some of the items are still in work progress because I intend to make this music player a fully functional project soon but for the meantime this project focuses on how to apply the OOP principle.
 
 In my case, I have these:
 
