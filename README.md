@@ -26,6 +26,13 @@ In my case, I have these:
   current Time,
   and the duration.
 
+Functional button for OOP principle
+
+- Player ( Play/Pause button, next button, prev button, progressbar, current time)
+- Now Playing (Play button in each song list)
+- Listen Now button ( Which play random song ) and soundwave animate when music is playing
+- Song name, artist and images
+
 ## Tech Usage for this Project
 
 - Using Parcel.js
