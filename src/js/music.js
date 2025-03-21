@@ -1,6 +1,6 @@
 import { Song, MusicPlayer } from "./modules/musicplayer.js";
 
-// Select elements
+// Added variables to select elements
 const audioElement = new Audio();
 const playButton = document.querySelector(".play-button");
 const nextButton = document.querySelector(".bx-last-page");
@@ -15,7 +15,7 @@ const progressContainer = document.querySelector(".progress");
 const currentTimeElement = document.querySelector(".progress p:first-child");
 const durationElement = document.querySelector(".progress p:last-child");
 
-// Create MusicPlayer instance
+// Added MusicPlayer instance
 const player = new MusicPlayer(
   audioElement,
   playButton,
@@ -32,7 +32,7 @@ const player = new MusicPlayer(
   durationElement
 );
 
-// Add songs
+// Added songs
 player.addSongs([
   new Song(
     "Fight Back",
